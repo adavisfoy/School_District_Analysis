@@ -1,7 +1,10 @@
 # School District Analysis: PyCitySchools
 
 ## Overview of the PyCitySchools District Analysis: 
-Explain the purpose of this analysis.
+
+We previously completed an analysis of schools in the PyCitySchools District that included a district summary, a school summary, and several performance-based summaries (by grade, by school spending, by school size, by school type). 
+
+Since the original school district analysis was completed, the PyCity School Board raised a suspicion that reading and math scores for Thomas High School ninth graders were altered. Given the seriousness of this allegation and possible impact to state testing standards and budgetary implications, the School Board has requested intervention. School Board officials requested that math and reading scores for Thomas High School ninth graders be excluded from the analysis (i.e. replace their scores with NaNs). Once the scores have been excluded, they have requested that the analysis be completed again to determine the impact of these changes on the overall analysis.  
 
 ## Results: 
 Using bulleted lists and images of DataFrames as support, address the following questions.
