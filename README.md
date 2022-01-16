@@ -41,10 +41,18 @@ Using bulleted lists and images of DataFrames as support, address the following 
 ![PyCitySchools_Top_Schools_Updated.png](Resources/PyCitySchools_Top_Schools_Updated.png)
 
 - **How does replacing the ninth-grade scores affect the following:**
-  - Math and reading scores by grade
-  - Scores by school spending
-  - Scores by school size
-  - Scores by school type
+  - **Math and reading scores by grade:** Because we excluded Thomas High School ninth grader scores for math and reading, the summaries for math and reading scores by grade indicate "nan" in the 9th grade column for Thomas High School. 
+  - **Scores by school spending:** 
+    - Thomas High School falls in the "Spending Ranges (Per Student)" of $630 - $644. Prior to formatting the columns, there were minor changes in the "630-644" row; however, the updated spending_summary_df is exactly the same after formatting since the minor changes were not enough to change the values upon rounding to 0 or 1 digit after the decimal (depending on the column). 
+
+![PyCitySchools_Original_Spending_No_Formatting.png](Resources/PyCitySchools_Original_Spending_No_Formatting.png)
+
+![PyCitySchools_Updated_Spending_No_Formatting.png](Resources/PyCitySchools_Updated_Spending_No_Formatting.png)
+
+![PyCitySchools_Spending_Formatted.png](Resources/PyCitySchools_Spending_Formatted.png)
+
+  - **Scores by school size:** Excluding Thomas High School ninth grader scores did not have any impact on the scores by school size. 
+  - **Scores by school type:** Excluding Thomas High School ninth grader scores did not have any impact on the scores by school type.
 
 ## Summary: 
 Summarize four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
