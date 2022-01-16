@@ -54,8 +54,23 @@ This section will outline the impacts of excluding Thomas High School ninth grad
 
 ![PyCitySchools_Spending_Formatted.png](Resources/PyCitySchools_Spending_Formatted.png)
 
-  - **Scores by school size:** Excluding Thomas High School ninth grader scores did not have any impact on the scores by school size. 
+  - **Scores by school size:** Excluding Thomas High School ninth grader scores did not have any impact on the scores by school size.
+    - Thomas High School is categorized as a medium-sized school. Prior to formatting the columns, there were minor changes in the "Medium" row, however, the updated size_summary_df is exactly the same after formatting since the minor changes were not enough to change the values upon rounding to 0 or 1 digit after the decimal (depending on the column). 
+
+![PyCitySchools_Size_Summary_Original.png](Resources/PyCitySchools_Size_Summary_Original.png)
+
+![PyCitySchools_Size_Summary_Updated.png](Resources/PyCitySchools_Size_Summary_Updated.png)
+
+![PyCitySchools_Size_Summary_Formatted.png](Resources/PyCitySchools_Size_Summary_Formatted.png)
+
   - **Scores by school type:** Excluding Thomas High School ninth grader scores did not have any impact on the scores by school type.
+    - Thomas High School is categorized as a Charter school type. Prior to formatting the columns, there were minor changes in the "Charter" row, however, the updated type_summary_df is exactly the same after formatting since the minor changes were not enough to change the values upon rounding to 0 or 1 digit after the decimal (depending on the column).
+
+![PyCitySchools_Type_Original.png](Resources/PyCitySchools_Type_Original.png)
+
+![PyCitySchools_Type_Updated.png](Resources/PyCitySchools_Type_Updated.png)
+
+![PyCitySchools_Type_Formatted.png](Resources/PyCitySchools_Type_Formatted.png)
 
 ## Summary: 
 Summarize four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
