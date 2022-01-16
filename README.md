@@ -5,13 +5,14 @@ Explain the purpose of this analysis.
 
 ## Results: Using bulleted lists and images of DataFrames as support, address the following questions.
 
-- How is the **district summary** affected?
+- How is the **District Summary** affected?
   - A few of the metrics were not impacted by replacing Thomas High School ninth grade scores for math and reading with NaNs. **Metrics that weren't impacted** include: 
-    - Total Schools
-    - Total Students
-    - Total Budget
-  - As anticipated, replacing the scores of the 461 ninth graders at Thomas High School with NaNs impacted the metrics that utilized math and reading scores for mathematical calculation: 
-    - Average Math Score: With the Thomas High School ninth grade scores excluded, the average math score decreased slightly from 79.0 to 78.9. We utilized the pandas.DataFrame.mean function() to calculate this score. Because the "skipna" parameter is "True" by default, the NaN values are excluded both from the numerator (sum of math scores) as well as the denominator (count of scores) when computing the result.     
+    - **Total Schools**
+    - **Total Students**
+    - **Total Budget**
+  - As anticipated, replacing the scores of the 461 ninth graders at Thomas High School with **NaNs** impacted some of the metrics as outlined below: 
+    - **Average Math Score:** This score decreased slightly from 79.0 to 78.9. 
+      - We utilized the pandas.DataFrame.mean function() to calculate this score. Because the "skipna" parameter is "True" by default and we didn't specify otherwise, the NaN values are excluded both from the numerator (sum of math scores) as well as the denominator (count of scores) when computing the result.     
     - Average Reading Score: This score remained the same.
     - % Passing Math: The percentage of students passing math decreased slightly from 75.0% to 74.8%.
     - % Passing Reading: The percentage of students passing reading decreased slightly from 85.8% to 85.7%. 
