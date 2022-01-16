@@ -35,6 +35,15 @@ This section will outline the impacts of excluding Thomas High School ninth grad
   - **% Passing Math:** Thomas High School's % of students passing math decreased slightly. 
   - **% Passing Reading:** Thomas High School's % of students passing reading decreased slightly.
   - **% Overall Passing:** Thomas High School's % of students passing both math and reading decreased slightly.
+
+**School Summary - Original:**
+
+![PyCitySchools_Original_School_Summary.png](Resources/PyCitySchools_Original_School_Summary.png)
+
+**School Summary - Updated:**
+
+![PyCitySchools_Updated_School_Summary.png](Resources/PyCitySchools_Updated_School_Summary.png)
+
 - **How does replacing the ninth graders’ math and reading scores with NaN affect Thomas High School’s performance relative to the other schools?**
   - Despite a decrease in a majority of Thomas High School's metrics after excluding 9th graders' scores, **Thomas High School's ranking based on performance holds steady at #2.**
   - As a result of the update, there is a narrower margin between Thomas High School and the #3 School: Griffin High School.  
