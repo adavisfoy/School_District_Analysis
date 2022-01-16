@@ -1,11 +1,12 @@
-# School_District_Analysis
+# School District Analysis: PyCitySchools
 
-## Overview of the school district analysis: 
+## Overview of the PyCitySchools District Analysis: 
 Explain the purpose of this analysis.
 
-## Results: Using bulleted lists and images of DataFrames as support, address the following questions.
+## Results: 
+Using bulleted lists and images of DataFrames as support, address the following questions.
 
-- How is the **District Summary** affected?
+### District Summary Analysis:
   - A few of the metrics were not impacted by replacing Thomas High School ninth grade scores for math and reading with NaNs. **Metrics that weren't impacted** include: 
     - **Total Schools**
     - **Total Students**
@@ -16,7 +17,15 @@ Explain the purpose of this analysis.
     - Average Reading Score: This score remained the same.
     - % Passing Math: The percentage of students passing math decreased slightly from 75.0% to 74.8%.
     - % Passing Reading: The percentage of students passing reading decreased slightly from 85.8% to 85.7%. 
-    - % Overall Passing: The perdentage of students passing both math and reading decreased from 65.2% to 64.9%.  
+    - % Overall Passing: The perdentage of students passing both math and reading decreased from 65.2% to 64.9%. 
+
+
+![PyCitySchools_Original_District_Summary.png](Resources/PyCitySchools_Original_District_Summary.png)
+
+
+![PyCitySchools_Updated_District_Summary.png](Resources/PyCitySchools_Updated_District_Summary.png)
+
+### School Summary Analysis:
 - How is the school summary affected?
 - How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
 - How does replacing the ninth-grade scores affect the following:
