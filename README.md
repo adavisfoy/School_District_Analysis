@@ -26,9 +26,21 @@ Using bulleted lists and images of DataFrames as support, address the following 
 ![PyCitySchools_Updated_District_Summary.png](Resources/PyCitySchools_Updated_District_Summary.png)
 
 ### School Summary Analysis:
-- How is the school summary affected?
-- How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
-- How does replacing the ninth-grade scores affect the following:
+- **How is the school summary affected?**
+  - **Average Math Score:** Thomas High School's score decreased slightly.  
+  - **Average Reading Score:** Thomas High School's score increased slightly. 
+  - **% Passing Math:** Thomas High School's % of students passing math decreased slightly. 
+  - **% Passing Reading:** Thomas High School's % of students passing reading decreased slightly.
+  - **% Overall Passing:** Thomas High School's % of students passing both math and reading decreased slightly.
+- **How does replacing the ninth graders’ math and reading scores with NaN affect Thomas High School’s performance relative to the other schools?**
+  - Despite a decrease in a majority of Thomas High School's metrics after excluding 9th graders' scores, **Thomas High School's ranking based on performance holds steady at #2.**
+  - As a result of the update, there is a narrower margin between Thomas High School and the #3 School: Griffin High School.  
+
+![PyCitySchools_Top_Schools_Original.png](Resources/PyCitySchools_Top_Schools_Original.png)
+
+![PyCitySchools_Top_Schools_Updated.png](Resources/PyCitySchools_Top_Schools_Updated.png)
+
+- **How does replacing the ninth-grade scores affect the following:**
   - Math and reading scores by grade
   - Scores by school spending
   - Scores by school size
