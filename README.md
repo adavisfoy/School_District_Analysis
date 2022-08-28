@@ -23,10 +23,10 @@ This section will outline the impacts of excluding Thomas High School ninth grad
     - **% Overall Passing:** The perdentage of students passing both math and reading decreased from 65.2% to 64.9%. 
 
 **Original District Summary:** 
-![PyCitySchools_Original_District_Summary.png](Resources/PyCitySchools_Original_District_Summary.png)
+![PyCitySchools_Original_District_Summary.png](Images/PyCitySchools_Original_District_Summary.png)
 
 **Updated District Summary:** 
-![PyCitySchools_Updated_District_Summary.png](Resources/PyCitySchools_Updated_District_Summary.png)
+![PyCitySchools_Updated_District_Summary.png](Images/PyCitySchools_Updated_District_Summary.png)
 
 ### School Summary Analysis:
 - **How is the school summary affected?**
@@ -38,47 +38,47 @@ This section will outline the impacts of excluding Thomas High School ninth grad
 
 **School Summary - Original:**
 
-![PyCitySchools_Original_School_Summary.png](Resources/PyCitySchools_Original_School_Summary.png)
+![PyCitySchools_Original_School_Summary.png](Images/PyCitySchools_Original_School_Summary.png)
 
 **School Summary - Updated:**
 
-![PyCitySchools_Updated_School_Summary.png](Resources/PyCitySchools_Updated_School_Summary.png)
+![PyCitySchools_Updated_School_Summary.png](Images/PyCitySchools_Updated_School_Summary.png)
 
 - **How does replacing the ninth graders’ math and reading scores with NaN affect Thomas High School’s performance relative to the other schools?**
   - Despite a decrease in a majority of Thomas High School's metrics after excluding 9th graders' scores, **Thomas High School's ranking based on performance holds steady at #2.**
   - As a result of the update, there is a narrower margin between Thomas High School and the #3 School: Griffin High School.  
 
 **Original Top School Rankings:**
-![PyCitySchools_Top_Schools_Original.png](Resources/PyCitySchools_Top_Schools_Original.png)
+![PyCitySchools_Top_Schools_Original.png](Images/PyCitySchools_Top_Schools_Original.png)
 
 **Updated Top School Rankings:**
-![PyCitySchools_Top_Schools_Updated.png](Resources/PyCitySchools_Top_Schools_Updated.png)
+![PyCitySchools_Top_Schools_Updated.png](Images/PyCitySchools_Top_Schools_Updated.png)
 
 - **How does replacing the ninth-grade scores affect the following:**
   - **Math and reading scores by grade:** Because we excluded Thomas High School ninth grader scores for math and reading, the summaries for math and reading scores by grade indicate "nan" in the 9th grade column for Thomas High School. 
 
 **Math Scores by Grade:**
 
-![PyCitySchools_Math_THS_9_NaN.png](Resources/PyCitySchools_Math_THS_9_NaN.png)
+![PyCitySchools_Math_THS_9_NaN.png](Images/PyCitySchools_Math_THS_9_NaN.png)
 
 **Reading Scores by Grade:**
 
-![PyCitySchools_Reading_THS_9_NaN.png](Resources/PyCitySchools_Reading_THS_9_NaN.png)
+![PyCitySchools_Reading_THS_9_NaN.png](Images/PyCitySchools_Reading_THS_9_NaN.png)
 
   - **Scores by School Spending:** 
     - Thomas High School falls in the "Spending Ranges (Per Student)" of $630 - $644. Prior to formatting the columns, there were minor changes in the "630-644" row; however, the updated spending_summary_df is exactly the same after formatting since the minor changes were not enough to change the values upon rounding to 0 or 1 digit after the decimal (depending on the column). 
 
 **Scores by School Spending - Original:**
 
-![PyCitySchools_Original_Spending_No_Formatting.png](Resources/PyCitySchools_Original_Spending_No_Formatting.png)
+![PyCitySchools_Original_Spending_No_Formatting.png](Images/PyCitySchools_Original_Spending_No_Formatting.png)
 
 **Scores by School Spending - Updated:**
 
-![PyCitySchools_Updated_Spending_No_Formatting.png](Resources/PyCitySchools_Updated_Spending_No_Formatting.png)
+![PyCitySchools_Updated_Spending_No_Formatting.png](Images/PyCitySchools_Updated_Spending_No_Formatting.png)
 
 **Scores by School Spending - Formatted:**
 
-![PyCitySchools_Spending_Formatted.png](Resources/PyCitySchools_Spending_Formatted.png)
+![PyCitySchools_Spending_Formatted.png](Images/PyCitySchools_Spending_Formatted.png)
 
   - **Scores by School Size:** 
     - Excluding Thomas High School ninth grader scores did not have any impact on the scores by school size.
@@ -86,15 +86,15 @@ This section will outline the impacts of excluding Thomas High School ninth grad
 
 **Scores by School Size - Original:**
 
-![PyCitySchools_Size_Summary_Original.png](Resources/PyCitySchools_Size_Summary_Original.png)
+![PyCitySchools_Size_Summary_Original.png](Images/PyCitySchools_Size_Summary_Original.png)
 
 **Scores by School Size - Updated:**
 
-![PyCitySchools_Size_Summary_Updated.png](Resources/PyCitySchools_Size_Summary_Updated.png)
+![PyCitySchools_Size_Summary_Updated.png](Images/PyCitySchools_Size_Summary_Updated.png)
 
 **Scores by School Size - Formatted:**
 
-![PyCitySchools_Size_Summary_Formatted.png](Resources/PyCitySchools_Size_Summary_Formatted.png)
+![PyCitySchools_Size_Summary_Formatted.png](Images/PyCitySchools_Size_Summary_Formatted.png)
 
   - **Scores by School Type:** 
     - Excluding Thomas High School ninth grader scores did not have any impact on the scores by school type.
@@ -102,15 +102,15 @@ This section will outline the impacts of excluding Thomas High School ninth grad
 
 **Scores by School Type Original:**
 
-![PyCitySchools_Type_Origiinal.png](Resources/PyCitySchools_Type_Origiinal.png)
+![PyCitySchools_Type_Origiinal.png](Images/PyCitySchools_Type_Origiinal.png)
 
 **Scores by School Type Updated:**
 
-![PyCitySchools_Type_Updated.png](Resources/PyCitySchools_Type_Updated.png)
+![PyCitySchools_Type_Updated.png](Images/PyCitySchools_Type_Updated.png)
 
 **Scores by School Type Formatted:**
 
-![PyCitySchools_Type_Formatted.png](Resources/PyCitySchools_Type_Formatted.png)
+![PyCitySchools_Type_Formatted.png](Images/PyCitySchools_Type_Formatted.png)
 
 ## Summary: 
 
